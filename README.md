@@ -2,36 +2,69 @@
 
 Curso práctico, progresivo y muy explicativo para aprender TypeScript de forma
 seria. La meta de este libro no es solo que sepas escribir anotaciones de tipo,
-sino que entiendas como TypeScript mejora el desarrollo de software, como se
-transforma a JavaScript y por que eso reduce errores reales.
+sino que entiendas cómo TypeScript mejora el desarrollo de software, cómo se
+transforma a JavaScript y por qué eso reduce errores reales.
+
+Repositorio oficial: https://github.com/yetsin7/curso-de-typescript
 
 ---
 
-## ¿Para quien es este libro?
+## 🇳🇮 Para estudiantes de Nicaragua (y de toda Latinoamérica)
+
+Hola. Si estás en Nicaragua y quieres aprender a programar en serio, este libro
+es para ti. También sirve si vives en cualquier otro país de Centroamérica o
+Latinoamérica: el contenido está escrito en español claro, sin tecnicismos
+innecesarios, pensando en quien aprende por su cuenta y desde cero.
+
+No necesitas pagar un curso caro, no tienes que registrarte en ninguna
+plataforma y no requieres internet permanente. Una vez que clones el
+repositorio, puedes estudiar todo el material sin conexión, en tu propia
+computadora, a tu ritmo.
+
+## 📖 ¿Por qué existe este libro?
+
+En Nicaragua hay mucho talento, pero pocas oportunidades de aprender
+programación de forma estructurada y gratuita. Este libro nace con una misión
+simple:
+
+- Que más nicaragüenses puedan aprender a programar sin pagar cursos costosos.
+- Que cualquier persona con una computadora pueda estudiar, incluso con
+  internet limitado o intermitente.
+- Que el material sea accesible para principiantes reales, sin asumir que ya
+  dominas el inglés técnico ni que tienes experiencia previa en otros lenguajes.
+- Que el conocimiento se quede aquí, libre y disponible para quien lo necesite.
+
+Es 100% gratuito, no requiere registro y se puede estudiar offline después de
+clonarlo. Si te sirve, compártelo con otros estudiantes nicaragüenses y
+ayúdanos a que más gente pueda dar el salto a la programación profesional.
+
+---
+
+## ¿Para quién es este libro?
 
 - Personas que ya conocen algo de JavaScript y quieren trabajar mejor
-- Personas principiantes que quieren aprender con mas estructura desde el inicio
-- Desarrolladores que quieren escribir software mas mantenible y seguro
+- Personas principiantes que quieren aprender con más estructura desde el inicio
+- Desarrolladores que quieren escribir software más mantenible y seguro
 - Equipos que necesitan modelar datos, funciones y módulos con claridad
 
 ## Objetivo real del libro
 
-Al terminar este curso deberias poder:
+Al terminar este curso deberías poder:
 
-- entender que problema resuelve TypeScript;
+- entender qué problema resuelve TypeScript;
 - diferenciar desarrollo, compilación y ejecución;
 - modelar datos con tipos, interfaces, unions y generics;
 - leer y corregir errores del compilador con criterio;
-- organizar proyectos pequenos y medianos con buena base técnica.
+- organizar proyectos pequeños y medianos con buena base técnica.
 
-## Que vas a aprender sobre software
+## Qué vas a aprender sobre software
 
 Este libro insiste en varias ideas importantes:
 
 - TypeScript ayuda en desarrollo, pero quien se ejecuta es JavaScript.
 - El compilador revisa relaciones lógicas entre datos, no magia.
 - Los tipos no reemplazan la validación de datos externos.
-- Un buen modelado de tipos mejora legibilidad, mantenimiento y colaboracion.
+- Un buen modelado de tipos mejora legibilidad, mantenimiento y colaboración.
 
 ## Requisitos
 
@@ -39,7 +72,7 @@ Este libro insiste en varias ideas importantes:
 - **npm** incluido con Node.js
 - **VS Code** recomendado
 
-## Instalacion inicial
+## Instalación inicial
 
 Desde la carpeta `Libro de TypeScript/`:
 
@@ -47,53 +80,53 @@ Desde la carpeta `Libro de TypeScript/`:
 npm install
 ```
 
-## Como estudiar este libro
+## Cómo estudiar este libro
 
 1. Lee el `README.md` general del libro.
 2. Abre el `README.md` del capítulo.
 3. Recorre los archivos `.ts` en orden.
 4. Ejecuta revisión de tipos con `npx tsc --noEmit`.
 5. Compila con `npx tsc` cuando quieras ver JavaScript generado.
-6. Observa como el mismo concepto se ve en TypeScript y en JavaScript.
-7. Cambia código a proposito para provocar errores y entenderlos.
+6. Observa cómo el mismo concepto se ve en TypeScript y en JavaScript.
+7. Cambia código a propósito para provocar errores y entenderlos.
 
-## Que ocurre cuando trabajas con TypeScript
+## Qué ocurre cuando trabajas con TypeScript
 
 Cuando escribes TypeScript:
 
 - el editor analiza tipos y relaciones mientras escribes;
 - el compilador revisa incoherencias antes de ejecutar;
-- si todo es valido, genera JavaScript;
+- si todo es válido, genera JavaScript;
 - Node.js o el navegador ejecutan ese JavaScript compilado.
 
-Eso significa que TypeScript no sustituye a JavaScript. Lo acompana y lo vuelve
-mas claro en el proceso de construccion del software.
+Eso significa que TypeScript no sustituye a JavaScript. Lo acompaña y lo vuelve
+más claro en el proceso de construcción del software.
 
 ## Ruta del libro
 
 | Nivel | Módulo | Tema |
 |---|---|---|
-| 🟢 Básico | `01-introducción/` | Que es TypeScript y como se compila |
+| 🟢 Básico | `01-introduccion/` | Qué es TypeScript y cómo se compila |
 | 🟢 Básico | `02-tipos-y-variables/` | Tipos primitivos, inferencia y anotaciones |
-| 🟢 Básico | `03-funciones-e-interfaces/` | Parametros, retorno, objetos e interfaces |
+| 🟢 Básico | `03-funciones-e-interfaces/` | Parámetros, retorno, objetos e interfaces |
 | 🟡 Medio | `04-objetos-arreglos-y-uniones/` | Arrays, unions, aliases y narrowing |
-| 🟡 Medio | `05-generics-y-narrowing/` | Generics, guards y reutilizacion segura |
-| 🟡 Medio | `06-clases-y-módulos/` | Clases, modificadores y export/import |
-| 🔴 Avanzado | `07-utility-types/` | `Partial`, `Pick`, `Record`, `Omit` y modelado practico |
+| 🟡 Medio | `05-generics-y-narrowing/` | Generics, guards y reutilización segura |
+| 🟡 Medio | `06-clases-y-modulos/` | Clases, modificadores y export/import |
+| 🔴 Avanzado | `07-utility-types/` | `Partial`, `Pick`, `Record`, `Omit` y modelado práctico |
 | 🔴 Avanzado | `08-tsconfig-y-tooling/` | Configuración, strict mode y flujo de trabajo |
 | 🔴 Avanzado | `09-async-y-fetch/` | Promesas, fetch y datos externos tipados |
 | 🔴 Avanzado | `10-proyecto-final/` | Mini proyecto final guiado con varios módulos |
 
-## Como se conecta con JavaScript
+## Cómo se conecta con JavaScript
 
-Si vienes de JavaScript, este libro te ayudara a ver que:
+Si vienes de JavaScript, este libro te ayudará a ver que:
 
 - `interface` y `type` describen formas de datos;
-- `unknown` suele ser mas seguro que `any`;
+- `unknown` suele ser más seguro que `any`;
 - los generics permiten reutilizar lógica sin perder información;
-- los errores del compilador pueden prevenir muchos errores de integracion.
+- los errores del compilador pueden prevenir muchos errores de integración.
 
-## Errores comúnes que este libro quiere corregir
+## Errores comunes que este libro quiere corregir
 
 - pensar que TypeScript cambia el comportamiento en tiempo de ejecución;
 - usar `any` como salida rápida demasiado pronto;
@@ -112,12 +145,31 @@ Si vienes de JavaScript, este libro te ayudara a ver que:
 
 ## Resultado esperado al terminar
 
-Si completas este libro con práctica real, deberias estar listo para:
+Si completas este libro con práctica real, deberías estar listo para:
 
 - usar TypeScript en proyectos Node.js;
 - entender mejor bases de frameworks como React, Next.js o Angular;
-- modelar contratos de datos mas claros;
+- modelar contratos de datos más claros;
 - trabajar con código moderno de frontend o backend con menos errores.
+
+---
+
+## 🤝 Cómo apoyar este proyecto
+
+Este libro es gratuito y seguirá siéndolo. Si te resulta útil, hay varias
+formas sencillas de apoyar para que llegue a más personas:
+
+- ⭐ Dale una estrella al repositorio en GitHub:
+  https://github.com/yetsin7/curso-de-typescript
+- 📣 Compártelo con amigos, compañeros de clase y otros estudiantes
+  nicaragüenses que estén aprendiendo a programar.
+- 🐛 Abre un issue si encuentras un error, una explicación confusa o un tema
+  que falta por cubrir.
+- 🔧 Envía un pull request con mejoras: correcciones, ejemplos adicionales,
+  ejercicios o aclaraciones que ayuden a quien venga después de ti.
+
+Cada estrella, cada compartida y cada contribución ayuda a que más
+nicaragüenses puedan aprender a programar de forma libre y profesional.
 
 ---
 
