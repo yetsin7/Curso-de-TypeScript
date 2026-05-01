@@ -1,4 +1,4 @@
-# Guía de Estudio — Libro de TypeScript
+# Guía de Estudio — Curso de TypeScript
 
 Esta guía existe para que el libro no se estudie como una simple coleccion de
 archivos. TypeScript se entiende mejor cuando relacionas cada concepto con el

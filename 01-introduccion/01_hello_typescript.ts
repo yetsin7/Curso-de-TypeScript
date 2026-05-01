@@ -10,7 +10,7 @@ export {};
  */
 
 /* Una variable con tipo inferido. TypeScript deduce que es string. */
-const courseName = "Libro de TypeScript";
+const courseName = "Curso de TypeScript";
 
 /* Una variable con tipo anotado manualmente. */
 const currentLesson: number = 1;

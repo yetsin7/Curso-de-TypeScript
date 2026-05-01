@@ -1,4 +1,4 @@
-# Libro de TypeScript — De cero a PRO
+# Curso de TypeScript — De cero a PRO
 
 Curso práctico, progresivo y muy explicativo para aprender TypeScript de forma
 seria. La meta de este libro no es solo que sepas escribir anotaciones de tipo,
@@ -74,7 +74,7 @@ Este libro insiste en varias ideas importantes:
 
 ## Instalación inicial
 
-Desde la carpeta `Libro de TypeScript/`:
+Desde la carpeta `Curso de TypeScript/`:
 
 ```bash
 npm install
