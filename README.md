@@ -5,7 +5,7 @@ seria. La meta de este libro no es solo que sepas escribir anotaciones de tipo,
 sino que entiendas cómo TypeScript mejora el desarrollo de software, cómo se
 transforma a JavaScript y por qué eso reduce errores reales.
 
-Repositorio oficial: https://github.com/yetsin7/curso-de-typescript
+Repositorio oficial: https://github.com/yetsin7/Curso-de-TypeScript
 
 ---
 
@@ -160,7 +160,7 @@ Este libro es gratuito y seguirá siéndolo. Si te resulta útil, hay varias
 formas sencillas de apoyar para que llegue a más personas:
 
 - ⭐ Dale una estrella al repositorio en GitHub:
-  https://github.com/yetsin7/curso-de-typescript
+https://github.com/yetsin7/Curso-de-TypeScript
 - 📣 Compártelo con amigos, compañeros de clase y otros estudiantes
   nicaragüenses que estén aprendiendo a programar.
 - 🐛 Abre un issue si encuentras un error, una explicación confusa o un tema
