@@ -9,7 +9,7 @@ Repositorio oficial: https://github.com/yetsin7/Curso-de-TypeScript
 
 ## Documentacion de referencia
 
-Consulta [DOCUMENTACION-OFICIAL.md](./DOCUMENTACION-OFICIAL.md) para acompanar
+Consulta [Documentación-TypeScript.md](./Documentación-TypeScript.md) para acompanar
 el curso con el handbook y la referencia oficial de TypeScript.
 
 ---
