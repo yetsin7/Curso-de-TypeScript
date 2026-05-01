@@ -7,6 +7,11 @@ transforma a JavaScript y por qué eso reduce errores reales.
 
 Repositorio oficial: https://github.com/yetsin7/Curso-de-TypeScript
 
+## Documentacion de referencia
+
+Consulta [DOCUMENTACION-OFICIAL.md](./DOCUMENTACION-OFICIAL.md) para acompanar
+el curso con el handbook y la referencia oficial de TypeScript.
+
 ---
 
 ## 🇳🇮 Para estudiantes de Nicaragua (y de toda Latinoamérica)
