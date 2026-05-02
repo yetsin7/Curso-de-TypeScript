@@ -13,7 +13,7 @@ class CourseProgress {
 
   constructor(courseName: string) {
     this.courseName = courseName;
-    this.completedLessons = 0; jf
+    this.completedLessons = 0;
   }
 
   /*

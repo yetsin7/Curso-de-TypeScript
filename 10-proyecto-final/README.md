@@ -29,3 +29,9 @@ Construir un gestor de lecciones de estudio que:
 | `src/lesson-manager.ts` | Clase principal para gestionar lecciones |
 | `src/sample-data.ts` | Datos de ejemplo del proyecto |
 | `src/main.ts` | Punto de entrada y demostracion final |
+
+## Apoyo adicional para estudiar este capitulo
+
+- `02_checklist-final.md`
+- `03_reto-extra.md`
+- `04_practica-guiada.md`

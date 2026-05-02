@@ -1,48 +1,29 @@
-# Guía de Estudio — Curso de TypeScript
+# Guia de estudio de TypeScript
 
-Esta guía existe para que el libro no se estudie como una simple coleccion de
-archivos. TypeScript se entiende mejor cuando relacionas cada concepto con el
-problema que resuelve dentro del software.
+TypeScript se entiende mucho mejor cuando lo estudias como una herramienta para
+pensar el software con mas claridad, no como una lista de palabras nuevas.
 
-## Método recomendado
+## Metodo recomendado
 
-1. Lee el `README.md` del capítulo antes del código.
-2. Ejecuta `npx tsc --noEmit` y confirma que todo este limpio.
-3. Abre un archivo `.ts` y explica en voz alta que modela.
-4. Cambia algo a proposito para provocar un error del compilador.
-5. Corrigelo y anota por que el compilador tenia razon o no.
-6. Compila con `npx tsc` y compara el `.ts` con el `.js` generado.
+1. Lee el `README.md` general.
+2. Abre el `README.md` del modulo.
+3. Revisa el archivo `.ts` del tema.
+4. Ejecuta `npm run check`.
+5. Provoca un error intencional.
+6. Corrigelo y explica por que el compilador se quejo.
+7. Ejecuta `npm run build`.
+8. Compara `ts` con `dist/`.
+9. Completa la practica guiada.
 
-## Preguntas que debes hacerte siempre
+## Preguntas clave
 
-- ¿Que tipo de dato representa esto en el mundo real?
-- ¿Este valor puede faltar o cambiar de forma?
-- ¿Necesito `type`, `interface`, `union` o `generic`?
-- ¿Estoy usando `any` por necesidad o por prisa?
-- ¿Que bug estoy evitando gracias a esta definición?
+- Que dato del mundo real representa este tipo.
+- Si puede faltar, cambiar o venir mal formado.
+- Si conviene `type`, `interface`, `union` o `generic`.
+- Si estas usando `any` por necesidad o por prisa.
+- Que bug te ayuda a evitar este contrato.
 
-## Lo que debes observar en cada etapa
+## Regla tecnica importante
 
-### Durante escritura
-
-- autocompletado;
-- ayuda contextual del editor;
-- errores de firmas o propiedades.
-
-### Durante compilación
-
-- errores de asignación;
-- incompatibilidades entre objetos;
-- retornos faltantes;
-- accesos inseguros a valores opcionales.
-
-### Durante ejecución
-
-- comportamiento real del JavaScript generado;
-- necesidad de validar datos externos;
-- diferencia entre modelo teorico y datos reales.
-
-## Consejo central
-
-No estudies TypeScript como una lista de palabras reservadas. Estudialo como una
-herramienta para pensar mejor el software antes de ejecutarlo.
+Los tipos no validan automaticamente datos que vienen de APIs, archivos o formularios.
+TypeScript ayuda antes de ejecutar. La validacion externa sigue siendo responsabilidad del programa.
